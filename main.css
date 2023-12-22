@@ -1,0 +1,59 @@
+*{
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+    }
+}
+
+input {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin-top: 10px;
+    width: 150px;
+    padding: 6px;
+}
+
+.formValida {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 10px;
+    width: auto;
+    padding: 8px;
+    font-weight: bold;
+    background-color: #524c46da;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.success-message {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(84, 163, 84);
+    padding: 8px;
+    color: #fff;
+    text-align: center;
+    margin-top: 6px;
+    margin-left: 50px;
+    height: auto;
+    width: 200px;
+    display: none;
+}
+
+.failure-message {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ff000f;
+    padding: 8px;
+    color: #fff;
+    text-align: center;
+    margin-top: 6px;
+    margin-left: 50px;
+    height: auto;
+    width: 200px;
+    display: none;
+}
